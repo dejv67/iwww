@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <script src="https://api.mapy.cz/loader.js"></script>
-  <script>Loader.load()</script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <script src="https://api.mapy.cz/loader.js"></script>
+  <script>Loader.load()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Aron | Lyžařská škola </title>
@@ -20,6 +20,7 @@
     <a href= "#nabidka", >Nabídka-Ceník</a>
     <a href="#kontakt">Kontakt</a>
     <a href="#rezervace">Rezervace</a>
+    <a href="login.html">Přihlásit se</a>
   </nav>
   <img id="nav-hamburger-icon" src="./img/hamburger-menu-icon.png"
        onclick="showHamburgerMenu()"/>
@@ -27,7 +28,7 @@
 
 <section id="hero">
   <div>
-    <h1>Aron - Lyžařská škola pro vás.</h1>
+    <h1>Aron | Lyžařská škola pro vás.</h1>
     <a href="#rezervace">
       Rezervovat výuku
     </a>
@@ -40,7 +41,7 @@
 
   <div class="center-wrapper">
 
-      <h2><a id="nabidka">Nabídka</a></h2>
+      <h2><a id="nabidka" class="jumptarget">Nabídka</a></h2>
       <h3>Privátní výuka</h3>
       <table>
         <tr>
@@ -129,7 +130,7 @@
 
   <div class="center-wrapper">
     <div>
-      <h2><a id="kontakt">Kontakt</a></h2>
+      <h2 <a id="kontakt" class="jumptarget">Kontakt</a></h2>
       <div class="flex-wrap">
       <section>
         <address>
@@ -175,7 +176,7 @@
 
   <div class="center-wrapper">
     <div>
-      <h2><a id="rezervace">Rezervace výuky</a></h2>
+      <h2><a id="rezervace" class="jumptarget">Rezervace výuky</a></h2>
       <p>jméno:</p>
       <input type="text" name="jmeno"/>
       <p>příjmení:</p>
@@ -231,8 +232,8 @@
 
     <section>
       <p>Copyleft
-        2017                -
-        2018 <a href="https://github.com">David</a></p>
+        2018                -
+        2019 <a href="https://github.com">David</a></p>
     </section>
 
   </div>

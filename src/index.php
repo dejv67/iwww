@@ -1,5 +1,8 @@
+<?php include('phpFiles/login/db_login.php'); ?>
+
 <!doctype html>
 <html  lang="cz">
+
 
 <head>
   <meta charset="utf-8">
@@ -14,16 +17,15 @@
 </head>
 <body>
 
+
 <header>
   <nav id="nav">
-    <a href="#">Domů</a>
-    <a href= "#nabidka", >Nabídka-Ceník</a>
+    <a href="phpFiles/rezervace.php">Domů</a>
+    <a href= "phpFiles/login/zak_rez.php">Nabídka-Ceník</a>
     <a href="#kontakt">Kontakt</a>
     <a href="#rezervace">Rezervace</a>
-    <a href="login.html">Přihlásit se</a>
+    <a href="phpFiles/login/login.php">Přihlásit/Registrovat</a>
   </nav>
-  <img id="nav-hamburger-icon" src="./img/hamburger-menu-icon.png"
-       onclick="showHamburgerMenu()"/>
 </header>
 
 <section id="hero">
@@ -130,7 +132,7 @@
 
   <div class="center-wrapper">
     <div>
-      <h2 <a id="kontakt" class="jumptarget">Kontakt</a></h2>
+      <h2> <a id="kontakt" class="jumptarget">Kontakt</a></h2>
       <div class="flex-wrap">
       <section>
         <address>
@@ -175,36 +177,36 @@
   </div>
 
   <div class="center-wrapper">
-    <div>
+      <?php require_once  'phpFiles/objednavka.php';?>
+      <div>
       <h2><a id="rezervace" class="jumptarget">Rezervace výuky</a></h2>
-      <p>jméno:</p>
-      <input type="text" name="jmeno"/>
-      <p>příjmení:</p>
-      <input type="text" name="prijmeni"/>
+        <form action=phpFiles/objednavka.php method="POST">
+      <p>jméno a příjmení:</p>
+      <input type="text" name="name"/>
       <p>e-mail:</p>
-      <input type="text" name="email"/>
+      <input type="text" name="mail"/>
 
       <div class="flex-wrap2">
         <section>
           <p>od:</p>
-          <input type="date" name="jmeno"/>
+          <input type="date" name="date_from"/>
         </section>
         <section>
           <p>do:</p>
-          <input type="date" name="jmeno"/>
+          <input type="date" name="date_to"/>
         </section>
       </div>
       <br>
       <div>
         <section>
-      <select>
-        <option value="lyze">lyže</option>
+      <select name="tools">
+        <option value="ski">lyže</option>
         <option value="snb">snowboard</option>
       </select>
         </section>
        <br>
         <section>
-      <select>
+      <select name="lesson">
         <option value="priv1">Privátní výuka | 2h</option>
         <option value="priv2">Privátní výuka | 4h</option>
         <option value="rod">Rodinná výuka</option>
@@ -213,14 +215,26 @@
       </div>
 
       <p>počet dětí:</p>
-      <input type="number" name="pocDeti" min="0" max="5"/>
+      <input type="number" name="countKids" min="0" max="5"/>
       <p>jména dětí:</p>
-      <input type="text" name="deti"/>
+      <input type="text" name="namesKids"/>
       <p>poznámka:</p>
-      <textarea rows="4" cols="50" name="pozn"></textarea>
+      <textarea rows="4" cols="50" name="note"></textarea>
       <br/>
-      <input type="submit" name="odeslat" value="Odeslat"/>
+            <button type="submit" name="send" class="button">Odeslat</button>
+            <?php if(isset($_SESSION['message'])): ?>
+                <div class="success">
+                    <h3>
+                        <?php
+                        echo $_SESSION['message'];
+                        unset($_SESSION['message']);
+                        ?>
+                    </h3>
 
+
+                </div>
+            <?php endif ?>
+        </form>
     </div>
   </div>
 
@@ -239,17 +253,6 @@
   </div>
   </div>
 </footer>
-
-<script>
-    function showHamburgerMenu() {
-        var element = document.getElementById("nav");
-        if (element.className === "") {
-            element.className = "nav-responsive";
-        } else {
-            element.className = "";
-        }
-    }
-</script>
 
 
 </body>

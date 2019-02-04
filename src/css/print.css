@@ -1,0 +1,45 @@
+@media print
+{
+     .sidebar, .footer, .lista, .input, .btn, .h4, .form, .login
+    {
+        display: none !important;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        padding: 0px;
+
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 120%;
+        background: white;
+    }
+
+
+    .content{
+        width: 60%;
+        margin: 0px auto;
+        padding: 20px;
+        background: white;
+    }
+
+    .aktivita{
+        width: auto;
+        height: auto;
+        color: black;
+        background: white;
+        font-size: 14px;
+    }
+
+    .table, th, td{
+        border: 1px solid black;
+    }
+
+    .row{
+        background-color: white;
+    }
+
+
+}

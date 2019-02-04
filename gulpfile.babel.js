@@ -91,7 +91,7 @@ gulp.task('copy:.htaccess', () =>
     .pipe(gulp.dest(dirs.dist))
 );
 
-gulp.task('copy:index.html', () => {
+gulp.task('copy:index.php', () => {
   const hash = ssri.fromData(
     fs.readFileSync('node_modules/jquery/dist/jquery.min.js'),
     {algorithms: ['sha256']}

@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    background: #F8F8FF;
+}
+
+
+.lista {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #7AD3FF;
+    height: 50px;
+}
+
+.lista nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.lista nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline label {
+    margin: 0px 10px 5px 0;
+}
+
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+label {
+    width: 10em;
+    text-align: left;
+}
+
+
+.success{
+    color: #3c763d;
+    background: #dff0f8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#login{
+    width: 30%;
+    margin: 80px auto 0px;
+    color: white;
+    background-color:  #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.content{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.row{
+    background-color:#7AD3FF;
+    border-bottom: 2px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.aktivita{
+    width: 130px;
+    height: auto;
+    color: white;
+    background: #3c763d;
+    border: 1px solid #3c763d;
+    border-radius: 2px;
+    font-size: 11px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnZ{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+

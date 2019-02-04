@@ -27,8 +27,8 @@ header nav a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline;
     font-size: 18px;
+    text-decoration: underline;
 }
 
 header nav a:hover {
@@ -133,10 +133,6 @@ footer a {
     height: 80px;
 }
 
-#nav-hamburger-icon {
-    display: none;
-}
-
 .button {
     text-align: center;
     display: block;
@@ -154,9 +150,9 @@ footer a {
     text-align: center;
     display: block;
     padding: 5px;
-    border: 1px solid #4a4a4a;
-    background-color: #4a4a4a;
-    color: white;
+    border: 1px solid #7AD3FF;
+    background-color: #7AD3FF;
+    color: black;
     transition: 1s;
     margin: 5px;
 }
@@ -218,23 +214,4 @@ th, td {
     clear: both;
 }
 
-#login{
-    height: 100%;
-    position: relative;
-    text-align: center;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    background-color:  #7AD3FF;
-}
-
-#login div{
-    justify-items: left;
-    padding: 40px 60px;
-    background-color: white;
-    border-radius: 5px;
-    color: #4a4a4a;
-    border: 1px black;
-    transition: 1s;
-}
 

@@ -44,7 +44,7 @@
         <item name="db_dev@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="db_dev: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="instruktor: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="rez_vyuky: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -101,29 +101,54 @@
     <session id="254111119">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="4" />
+          <entry key="css" value="68" />
+          <entry key="html" value="3" />
+          <entry key="instruktor" value="14" />
+          <entry key="konkretni_vyuka" value="22" />
+          <entry key="nabidka" value="1" />
+          <entry key="php" value="275" />
+          <entry key="rez_vybaveni" value="4" />
+          <entry key="rez_vyuky" value="17" />
+          <entry key="role_uzivatele" value="5" />
+          <entry key="sql" value="31" />
+          <entry key="uzivatel" value="13" />
+          <entry key="zakaznik" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="4" />
+          <entry key="CSS" value="68" />
+          <entry key="Database Element" value="78" />
+          <entry key="HTML" value="3" />
+          <entry key="PHP" value="275" />
+          <entry key="Scratch" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1257" />
+          <entry key="cell" value="204" />
+          <entry key="css" value="1285" />
+          <entry key="html" value="257" />
+          <entry key="php" value="14511" />
+          <entry key="sql" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1244" />
-          <entry key="SQL" value="13" />
+          <entry key="CSS" value="1285" />
+          <entry key="HTML" value="257" />
+          <entry key="PHP" value="14460" />
+          <entry key="SQL" value="60" />
+          <entry key="Scratch" value="336" />
         </counts>
       </usages-collector>
     </session>
@@ -131,49 +156,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+        <entry file="file://$PROJECT_DIR$/src/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="315">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/phpFiles/rezervace.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="156" column="70" selection-start-line="156" selection-start-column="70" selection-end-line="156" selection-end-column="70" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/login.html">
+        <entry file="file://$PROJECT_DIR$/src/export.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="7" selection-end-line="42" selection-end-column="7" />
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hisRez.html">
+        <entry file="file://$PROJECT_DIR$/src/phpFiles/db_ins.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/phpFiles/instruktori.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="450">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/phpFiles/process.php">
+        <entry file="file://$PROJECT_DIR$/src/phpFiles/plachta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="-550">
+              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -184,12 +209,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>inpu</find>
+      <find>zak_fo</find>
+      <find>kasa</find>
+      <find>zak</find>
+      <find>mapa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,17 +228,45 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/login.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/css/layout.css" />
         <option value="$PROJECT_DIR$/src/hisRez.html" />
         <option value="$PROJECT_DIR$/src/instruktori.html" />
-        <option value="$PROJECT_DIR$/src/css/instr.css" />
         <option value="$PROJECT_DIR$/src/instruktori.php" />
         <option value="$PROJECT_DIR$/src/php files/instruktori.php" />
         <option value="$PROJECT_DIR$/src/php files/process.php" />
         <option value="$PROJECT_DIR$/src/phpFiles/process.php" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/login.html" />
+        <option value="$PROJECT_DIR$/src/login.php" />
+        <option value="$PROJECT_DIR$/src/registrace.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/log_errors.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/login.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/zak_reg.php" />
+        <option value="$PROJECT_DIR$/src/css/instr.css" />
+        <option value="$PROJECT_DIR$/src/phpFiles/db_uziv.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/uzivatele.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/db_zak.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/insProfil.php" />
+        <option value="$PROJECT_DIR$/src/css/akti.css" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/zak_prof.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/registrace.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/vyuka.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/zak_rez.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/zak_form.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/objednavka.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/db_ins.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/login/db_login.php" />
         <option value="$PROJECT_DIR$/src/phpFiles/instruktori.php" />
+        <option value="$PROJECT_DIR$/src/phpFiles/zakaznici.php" />
+        <option value="$PROJECT_DIR$/src/css/login.css" />
+        <option value="$PROJECT_DIR$/src/css/layout.css" />
+        <option value="$PROJECT_DIR$/src/phpFiles/plachta.php" />
+        <option value="$PROJECT_DIR$/src/css/kancl.css" />
+        <option value="$PROJECT_DIR$/src/css/print.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9ff6320c-7998-4c27-bd73-ab51f098104e/console.sql" />
+        <option value="$PROJECT_DIR$/src/export.php" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/css/print2.css" />
+        <option value="$PROJECT_DIR$/src/phpFiles/rezervace.php" />
       </list>
     </option>
   </component>
@@ -223,18 +281,22 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="894a65cc-9575-4e21-83c3-050b9f2361ee" name="iwww" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1410" />
-    <option name="y" value="7" />
-    <option name="width" value="1863" />
-    <option name="height" value="1084" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -254,36 +316,79 @@
               <item name="semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semestralka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semestralka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="phpFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semestralka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semestralka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="phpFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="semestralka" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="semestralka" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="semestralka" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phpFiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="semestralka" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="phpFiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../docker-compose.yml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/php files" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/css" />
       <recent name="$PROJECT_DIR$/src/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/phpFiles/login" />
+      <recent name="$PROJECT_DIR$/src/php files" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,6 +402,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="mysql" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="phpstorm/mysql:latest" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker Image" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -313,39 +441,63 @@
       <workItem from="1547707659514" duration="17100000" />
       <workItem from="1547808631644" duration="141000" />
       <workItem from="1547808973302" duration="2844000" />
-      <workItem from="1547882070184" duration="7793000" />
+      <workItem from="1547882070184" duration="8463000" />
+      <workItem from="1548245326496" duration="10000000" />
+      <workItem from="1548959698822" duration="144230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51186000" />
+    <option name="totallyTimeSpent" value="206086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1423" y="-4" width="1863" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17611447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14488792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32985386" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3279396" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.4994664" weight="0.32914045" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053364" side_tool="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.32901832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18698743" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13231274" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3279396" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.4994664" weight="0.32914045" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053364" side_tool="true" weight="0.32914045" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13813978" />
-    </layout>
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17769273" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -365,65 +517,268 @@
     </entry>
     <entry file="das://63c4970c-9730-441a-aaf9-2ab527d24fc1/schema/db_dev/table/nabidka" />
     <entry file="das://63c4970c-9730-441a-aaf9-2ab527d24fc1/schema/db_dev/table/instruktor" />
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instruktori.html" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9ff6320c-7998-4c27-bd73-ab51f098104e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/hisRez.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/instr.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="815">
+          <caret line="135" column="3" lean-forward="true" selection-start-line="1" selection-end-line="135" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hisRez.html">
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/db_uziv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="275">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/phpFiles/process.php">
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/uzivatele.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="12" column="7" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/akti.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/insProfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/zak_rez.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/instruktor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/nabidka">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/role_uzivatele">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/zakaznik">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/konkretni_vyuka">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/registrace.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/log_errors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/objednavka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/uzivatel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/phpFiles/instruktori.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/zak_prof.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/db_zak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/zakaznici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/db_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/kancl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/rez_vyuky">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9ff6320c-7998-4c27-bd73-ab51f098104e/schema/db_dev/table/rez_vybaveni">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9ff6320c-7998-4c27-bd73-ab51f098104e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/login/zak_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="61" column="141" lean-forward="true" selection-start-line="61" selection-start-column="141" selection-end-line="61" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/vyuka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/print2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/db_ins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/plachta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phpFiles/rezervace.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="156" column="70" selection-start-line="156" selection-start-column="70" selection-end-line="156" selection-end-column="70" />
+          <folding>
+            <element signature="n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
